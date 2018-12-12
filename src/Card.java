@@ -26,6 +26,6 @@ public class Card {
     }
 
     public String toString() {
-        return "Rank: " + rank + "\nSuit: " + suit + "\n Value: " + pointValue;
+        return "Rank: " + this.rank + "\nSuit: " + this.suit + "\nValue: " + this.pointValue + "\n";
     }
 }
